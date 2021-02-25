@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+ }
+/* Slider */
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+/* #mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+} */
+
+#mainSlider .carousel-caption{
+    top: 20%;
+}
+    
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.main-btn{
+    background-color: #435bc5;
+    color: black;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color:aliceblue;
+    background-color: transparent;
+    border-color: #656565;
+}
+#fundo{
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: initial; */
+}
+p{
+    font-weight: 500;
+}
+
+#imagem{
+    margin: 10% auto;
+    border-radius: 50%;
+}
+
+#Sistema{
+    background-image: url(../img/agua-fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Compacta{
+    background-image: url(../img/fundo-grama.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Contato{
+    color: white;
+    height: 200px;
+    background-color: rgb(70, 66, 66);
+}
