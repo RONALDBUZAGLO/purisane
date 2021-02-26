@@ -1,0 +1,16 @@
+git config credential.helper store
+//Salva as configurações de user(nome,email)
+
+vim <arquivo>
+//abre o arquivo no terminal
+(aparentemente pode ser feita alterações e para salvar parece que foi usado o wq out :wq)
+
+git checkout -b <nome da nova branch>
+//cria uma nova branch e troca para a nova linha
+
+git commit -am <"descrição da ação">
+//aparentemente, faz o add e o commit ao mesmo tempo
+
+git checkout <endereço da linha do tempo> -- <arquivo.extensão>
+//aparentemente usado para reculperar arquivos deletados no passado podendo incluir de volta arquivos deletados usando o 'endereço' presente no commit
+
