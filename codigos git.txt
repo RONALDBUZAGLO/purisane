@@ -14,3 +14,26 @@ git commit -am <"descrição da ação">
 git checkout <endereço da linha do tempo> -- <arquivo.extensão>
 //aparentemente usado para reculperar arquivos deletados no passado podendo incluir de volta arquivos deletados usando o 'endereço' presente no commit
 
+git reset -soft
+//volta para o estado antes do commit preparado para commitar (add feito)
+
+git reset -mixed
+//volta para o estado antes do commit não preparado para commitar (sem add)
+
+git reset -hard
+//ignora todas as alterações depois do ponto escolhido
+
+git diff 
+//exibe as alterações feitas
+
+git diff --name-only
+//exibe apenas os nomes dos arquivos que foram modificados
+
+git diff <arquivo.extensão>
+//exibe apenas  as alterações feitas no arquivo
+
+git checkout HEAD -- <arquivo.extensão>
+//desfaz as auteração no arquivo específico
+
+ssh-keygen -t rsa -b 4096 -C "senseironald@gmail.com"
+//gerando chave ssl
